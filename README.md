@@ -19,7 +19,7 @@ As part of ECCC's open data policy they have created their own Data Use License,
 ## Disclaimer
 This is currently not made in collaboration with ECCC, and as such this project does not reflect the intentions or opinions of ECCC.
 
-### Installation
+## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install get_eccc_data.
 
@@ -35,7 +35,7 @@ Google Collab Example:
 !pip install get-eccc-data
 ```
 
-### Overview of get_eccc_data
+## Overview of get_eccc_data
 
 get_eccc_data is a Python library for extracting with ECCC data sourced from their "DataMart". There are two main datamarts one is a [barebones site](https://dd.weather.gc.ca), this only houses text-ony data, then another [more modern GitHub](https://eccc-msc.github.io/open-data/msc-data/readme_en/). The ladder houses some text products but mainly geared towards visual products, different file formats.
 
@@ -43,7 +43,7 @@ Currently includes import functions for a complete station list, a filter to sor
 
 A future update will hopefully shorten the amount of fuctions, and make them more dynamic. However, I felt this was a good starting point to figure out what people would like to see added. 
 
-### Usage
+## Usage
 
 **Recommended importing**
 ```python
